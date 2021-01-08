@@ -1,9 +1,14 @@
 # CourseProject
  <li>This is the course project for the Getting and Cleaning Data Coursera course.</li>
- It includes a R script, two tidy data sets, and a code book.
- The data cleaning process includes the following steps:
- Download the dataset from web if it does not already exist in the working directory.
- Read both the train and test datasets and merge them into x(measurements), y(activity) and subject, respectively.
- Load the data(x's) feature, activity info and extract columns named 'mean'(-mean) and 'standard'(-std). Also, modify column names to descriptive. (-mean to Mean, -std ## to Std, and remove symbols like -, (, ))
- Extract data by selected columns(from step 3), and merge x, y(activity) and subject data. Also, replace y(activity) column to it's name by refering activity label (loaded step 3).
- Generate 'Tidy Dataset' that consists of the average (mean) of each variable for each subject and each activity. The result is shown in the file tidy_dataset.txt.
+ <li>It includes a R script, two tidy data sets, and a code book.</li>
+ <p>The data cleaning process includes the following steps:</p>
+ <ol>
+ <li>Download the datasets provided in the course project instruction.</li>
+ <li>Read both the training and test datasets and the text data of features and activty labels.</li>
+ <li>Merge the training and test datasets.</li>
+ <li>Extracts only the measurements on the mean and standard deviation from the merged dataset.</li>
+ <li>Name the activities using descriptive names.</li>
+ <li>Label the data set with descriptive variable name.</li>
+ <li>Creates another tidy data set with the average of each variable for each activity and each subject.</li>
+ <li>Write the two processed datasets as 'traintestdata.csv' and 'averagedata.csv'</li>
+ 
