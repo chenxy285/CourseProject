@@ -10,5 +10,5 @@
  <li>Name the activities using descriptive names.</li>
  <li>Label the data set with descriptive variable name.</li>
  <li>Creates another tidy data set with the average of each variable for each activity and each subject.</li>
- <li>Write the two processed datasets as 'traintestdata.csv' and 'averagedata.csv'.</li>
+ <li>Write the two processed datasets as 'traintestdata.txt' and 'averagedata.txt'.</li>
  
