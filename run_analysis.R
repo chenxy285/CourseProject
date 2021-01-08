@@ -78,5 +78,5 @@ View(avgData)
 
 # 7. Write processed data
 
-write.csv(selectedData,paste(datadir,"/traintestdata.csv",sep=""))
-write.csv(avgData,paste(datadir,"/averagedata.csv",sep=""))
+write.csv(selectedData,"traintestdata.csv")
+write.csv(avgData,"averagedata.csv")
