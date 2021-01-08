@@ -1,5 +1,5 @@
 # CourseProject
- This is the course project for the Getting and Cleaning Data Coursera course.
+ <li>This is the course project for the Getting and Cleaning Data Coursera course.</li>
  It includes a R script, two tidy data sets, and a code book.
  The data cleaning process includes the following steps:
  Download the dataset from web if it does not already exist in the working directory.
