@@ -78,5 +78,5 @@ View(avgData)
 
 # 7. Write processed data
 
-write.csv(selectedData,"traintestdata.csv")
-write.csv(avgData,"averagedata.csv")
+write.table(selectedData,"traintestdata.txt",row.name=FALSE)
+write.table(avgData,"averagedata.txt",row.name=FALSE
